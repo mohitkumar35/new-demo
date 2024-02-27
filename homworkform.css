@@ -1,0 +1,30 @@
+#formcss{
+    box-shadow: 0px 0px 40px rgb(68,60,60);
+     width:400px;
+     border: 2px solid black;
+    border-radius: 20px;      
+}
+
+#formcss input{
+    margin: 12px;
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid slategrey;
+    color: red; 
+}
+#btn{
+    width: 150px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: red;
+    color: white
+}
+
+#btn:hover{
+    background-color: white;
+    color: rgb(21, 21, 38);
+    /* transition: background-color 1s; */
+    transition: all 1s;
+}

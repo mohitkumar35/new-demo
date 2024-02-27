@@ -1,0 +1,268 @@
+html {
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: bisque;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    overflow-x: hidden;
+}
+
+.nav .midnav{
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav .midnav li a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav .startnav{
+    list-style-type: none;
+}
+.nav .startnav li img{
+    width: 90px;
+}
+
+.nav .endnav{
+    list-style-type: none;
+}
+
+.nav .endnav li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32,32,51);
+    padding:10px 20px 10px 20px ;
+}
+
+
+/*=================end navbar css==================*/
+
+
+.hero{
+    height: 800px;
+    width: 100%;
+    border: 2px solid blueviolet;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+
+.hero div img{
+    width:500px;
+    position: relative;
+}
+
+.hero .hero1{
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+
+
+button{
+    background-color: rgba(0, 255, 8, 0.933);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    cursor: pointer; 
+}
+
+.about{
+    width:100%;
+    padding: 100px 0px;
+    background-color: bisque;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: hidden;
+}
+.about-text h2{
+    color:white;
+    font-size: 75px;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color:white;
+    letter-spacing: 2px;
+    font-size:22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height:28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-text{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size:22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    overflow-x: hidden;
+}
+button{
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+.Service{
+    width:100%;
+    padding: 100px 0px;
+    background-color:beige;
+    overflow-x: hidden;
+}
+.title h2{
+    color:white;
+    background: slategray;
+    font-size:75px;
+    width:1130px;
+    margin: 10px auto;
+    text-align: center;
+    overflow-x: hidden;
+}
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height:200px; 
+    overflow-x: hidden;
+}
+.card{
+    height:200px;
+    width: 200px;
+    padding: 20px 35px;
+    background: #b9e203;
+    border-radius: 50px;
+    margin:15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    overflow-x: hidden;
+}
+.cardi{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: red;
+    overflow-x: hidden;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.para p{
+    color:pink;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    overflow-x: hidden;
+}
+#web {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(red, green);
+    padding: 20px;
+    border-radius: 10px;
+}
+#dev {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(red, blue);
+    padding: 20px;
+    border-radius: 10px;
+}
+#grap {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(red, black);
+    padding: 20px;
+    border-radius: 10px;
+}
+#connect {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(red, brown);
+    padding: 20px;
+    border-radius: 10px;
+}
+#notdef {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(red, purple);
+    padding: 20px;
+    border-radius: 10px;
+}
+#server {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(red, violet);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media(max-width:769px){
+    
+    .box{
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height:200px; 
+        overflow-x: hidden;
+    }
+}
+
+

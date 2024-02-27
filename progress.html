@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #my::after{
+
+        content: "++";
+
+    }
+
+    #my::before{
+
+        content:"---";
+
+    }
+
+    #wave{
+        position: absolute;
+        top:0px;
+        z-index: -1;
+        padding-right: 0%;
+    }
+</style>
+<style>
+
+    #clip{
+
+        clip-path:polygon(50% 0%,100% 38%,82% 100%,18% 100%);
+        background-color: red;
+        /* background img: url() */
+        width:280px;
+        height:280px;
+
+    }
+</style>
+<body>
+
+    <!--getwaves.io-->
+    <div id="my">my skills</div>
+    <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1"</svg>
+    <div id="clip"></div>
+    
+</body>
+</html>

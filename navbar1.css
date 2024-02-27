@@ -1,0 +1,154 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+}
+
+.nav .midnav{
+    display: flex;
+    list-style-type: none;
+}
+.nav .midnav li a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav .startnav{
+    list-style-type: none;
+}
+.nav .startnav li img{
+    width: 90px;
+}
+
+.nav .endnav{
+    list-style-type: none;
+}
+
+.nav .endnav li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32,32,51);
+    padding:10px 20px 10px 20px ;
+}
+
+
+/*=================end navbar css==================*/
+
+
+.hero{
+    border: 2px solid blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    padding-top: 100px;
+}
+
+.hero div img{
+    width:500px;
+    position: relative;
+    z-index: 5555;
+}
+
+.hero .hero1{
+    padding-top: 100px;
+}
+
+#owsomes i{
+    font-size: 24px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#owsomes{
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    z-index: 5556;
+}
+
+/*============my client===========*/
+
+.client{
+    background-color: rgb(40,40,93);
+    /* border:10px solid orangered; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px 50px 100px;
+}
+
+.client div{
+    /*border: 2px solid red; */
+}
+
+.client1{
+    background-color: rgb(40,40,93);
+    color: white;
+    margin: 0px;
+    padding: 30px;
+    
+}
+
+/*============dedication========*/
+
+#dedication{
+    /*border:20px dashed black; */
+    display:flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+
+/*=========skills============*/
+
+#skills{
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 500px;
+    padding: 50px;  
+}
+
+#skills div{
+    background-color: white;
+    border: 2px solid rgb(36,36,71);
+    padding: 20px;
+    width: 100px;
+    margin: 10px;
+}
+
+#mainskill{
+    display:grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+}
+#ddiv2{
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    padding: 0px 40px 0px 40px;
+}
+
+@media(max-width:769px){
+    #Smartwork{
+        display: block;
+        padding: 80px 200px 80px 200px;
+    }
+    #ddiv2{
+    border-left: none;
+    border-right: none;
+    padding: 40px 0px 40px 0px;
+}
+}

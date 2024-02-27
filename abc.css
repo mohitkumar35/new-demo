@@ -1,0 +1,21 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+*{
+    font-family: 'Single Day', cursive;  
+}
+
+
+div{
+    color: brown;
+    font-size: 32px;
+    font-weight: 600;
+  
+    
+    
+}
+
+p{
+    color: pink;
+}

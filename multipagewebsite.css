@@ -1,0 +1,71 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-image: url('https://fswslwa16fdse8c2-14709620800.shopifypreview.com/cdn/shop/files/bike_hero.png?v=1659670032&width=2000');
+    padding-top: 8px;
+}
+.nav .midnav{
+    display: flex;
+    list-style-type: none;
+}
+.nav .midnav li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.nav .startnav{
+    list-style-type: none;
+}
+.nav .startnav li img{
+    width: 90px;
+}
+.nav .endnav{
+    list-style-type: none;
+}
+.nav .endnav li a{
+    width: 90px;
+    padding: 20px;
+}
+
+/*================end navbar css==========*/
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('https://i.pinimg.com/564x/3f/e2/3b/3fe23bf81c4c77594a6cc579346cd5ee.jpg');
+    background-position: center;
+    padding-top: 100px;
+}
+.hero div img{
+    width: 500px;
+    position: relative;
+}
+.hero .hero1{
+    padding-top: 100px;
+}
+#owsomes i{
+    font-size: 15px;
+    margin:none;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#owsomes{
+    position: absolute;
+    top: 25px;
+    left: 1100px;  
+}
